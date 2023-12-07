@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="logo_asset.png" type="image/x-icon"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700;900&display=swap" rel="stylesheet">
+  <title>Peoples | BuzzSphere</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    .dashboard {
+      padding: 20px 25% 20px 25%;
+      background-color: rgba(236, 234, 234, 0.2);
+      border-radius: 10px;
+      box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      background-color: #333;
+      color: white;
+      margin: auto auto;
+      text-align: center;
+    }
+
+    #logo {
+      background-color: azure;
+      width: 40px;
+      height: 40px;
+      max-width: 100px;
+      padding: 20px;
+      border-radius: 50%;
+      overflow: visible;
+      border: 2px solid black;
+      box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 10px;
+    }
+
+    nav a:hover {
+        color: black;
+        background-color: white;
+    }
+
+    main {
+      padding: 20px 15% 20px 15%;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position:relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .person {
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px rgba(20, 18, 18, 0.2);
+    }
+
+    .person img {
+
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+      border: 2px solid rgba(59, 57, 57, 0.5);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .person .info {
+      flex-grow: 1;
+    }
+
+    .person .info h3 {
+      margin: 0;
+    }
+
+    .person .info p {
+      margin: 0;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+      <img id="logo" src="logo_asset.png" style="margin: auto 100%;">
+      <h1 style="font-family: 'Poppins', sans-serif; font-size: 50px;">BuzzSphere</h1>
+  </header>
+
+  <nav>
+    <a href="BuzzSphere.html">Home</a>
+    <a href="people_asset.html">People</a>
+    <a href="settings_asset.html">Settings</a>
+    <a href="login_form.html">Login</a>
+    <a href="signup_form.html">SignUp</a>
+  </nav>
+
+  <main>
+    <h2><span style="font-family: 'Poppins', sans-serif; font-weight: 600; text-shadow: 5px 5px 10px rgba(20, 18, 18, 0.5);">Popular Users</span></h2>
+    <div class="person">
+      <img src="person1.jpg" alt="person1" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Pawan Kalyan</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@pawankalyan Followed by pa1_kumar_ and dj.ajay more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person2.jpg" alt="person2" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Naa Anveshana</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@naaanveshana Followed by __.ram001.__ & zackking more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person3.jpg" alt="person3" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Virat Kohli</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@viratkohli Followed by prajapathisathish & umesh445 more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person4.jpg" alt="person4" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Justin Beiber</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@justinbieber Followed by alex__89 & tommy005 more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person5.jpg" alt="person5" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Salman Khan</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@salmankhan Followed by nihar.883__ & __.anand_99854.__ more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person6.jpg" alt="person6" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Sundar Pichai</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@sundarpichai Followed by pa1_kumar_ & sunil.768_ more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person7.jpg" alt="person7" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Satya Nadella</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@satyanadella Followed by ankuj__789 & thaman887 more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person8.jpg" alt="person8" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Sonia Gandhi</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@soniagandhi Followed by rajiv.gandhi & gandhi.1 more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person9.jpg" alt="person9" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Mamta Benarjee</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@mamtabenarjee Followed by raj.malhotra__ & suman_chand._.1_ more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person10.jpg" alt="person10" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Rashmi Mittal</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@rashmimittal Followed by kriti2408 & telex__89_ more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person11.jpg" alt="person11" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Ashok Mittal</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@ashokmittal Followed by prakashsoam & surajsah more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person12.jpg" alt="person12" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Elon Musk</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@elonmusk Followed by kriti2408 & saswati558 more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person13.jpg" alt="person13" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Narendra Modi</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@narendramodi Followed by __upendra.jogi__ & _aditya.kachave_ more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person14.jpg" alt="person14" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Donald Trump</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@donaldtrump Followed by joe.bidden & sharmila more..</p> 
+      </div>
+    </div>
+
+    <div class="person">
+      <img src="person15.jpg" alt="person15" />
+      <div class="info">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Kim Jong Un</h3>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">@kimjongun Followed by donaldtrump & anure_kann11 more..</p> 
+      </div>
+    </div>
+
+    <p style="font-family: sans-serif; color:#444;"><a href="#" style="color:#444">more..</a></p>
+
+
+  </main>
+  <footer style="color: #777; font-size: small;">
+    <address>Lovely Professional University,<br>Phagwara, Jalandhar, Ludhiana - 144411<br>Kapurthala District, Punjab.</address>
+    <p>Facebook - @buzzsphere_india<br>Instagram - @buzzsphere_india<br>X - @buzzsphere_india</p>
+    <p>Copyright © 2023. All Rights Reserved by BuzzSphere.</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="logo_asset.png" type="image/x-icon"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;700;900&display=swap" rel="stylesheet">
+  <title>SignUp | BuzzSphere</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      overflow-x: hidden;
+    }
+    
+    .dashboard {
+      padding: 20px 25% 20px 25%;
+      background-color: rgba(236, 234, 234, 0.5);
+      border-radius: 10px;
+      box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+      /* border: 1px solid rgb(0, 0, 0); */
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      background-color: #333;
+      color: white;
+      margin: auto auto;
+      text-align: center;
+    }
+
+    #logo {
+      background-color: azure;
+      width: 40px;
+      height: 40px;
+      max-width: 100px;
+      padding: 20px;
+      border-radius: 50%;
+      overflow: visible;
+      border: 2px solid black;
+      box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 10px;
+    }
+
+    nav a:hover {
+        color: black;
+        background-color: white;
+    }
+
+    .u-video {
+      width: 500px;
+      height: 281px;
+      align-items: center;
+    }
+
+    .post {
+      min-width: 500px;
+      min-height: 281px;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+      margin-top: 20px;
+      padding: 10px;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px rgba(236, 234, 234, 0.2)
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .profile img {
+      border-radius: 50%;
+      margin-right: 10px;
+      border: 2px solid #777;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile .info {
+      flex-grow: 1;
+    }
+
+    .info h3, .info p {
+      margin: 0;
+    }
+
+    .post-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
+
+    .signup-container {
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    .form-group label {
+      flex-basis: 48%;
+    }
+
+    .form-group input {
+      flex-basis: 48%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    main {
+      padding: 20px 15% 20px 15%;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position:relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+      <img id="logo" src="logo_asset.png" style="margin: auto 100%;">
+      <h1 style="font-family: 'Poppins', sans-serif; font-size: 50px;">BuzzSphere</h1>
+      <p style="font-family: 'Poppins', sans-serif; font-weight: 200; text-align: left; margin-left: 50%;">- Be You<br>Contact Us:<br>Toll free: 0863 - 2441521<br>buzzsphere@support.co.in</p>
+  </header>
+
+  <nav>
+    <a href="BuzzSphere.html">Home</a>
+    <a href="people_asset.html">People</a>
+    <a href="settings_asset.html">Settings</a>
+    <a href="login_form.html">Login</a>
+    <a href="signup_form.html">SignUp</a>
+  </nav>
+
+  <main>
+    <div class="dashboard">
+      <div>
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 300;">Welcome to BuzzSphere, and Thanks! for here..</h2>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 200;">This is a place for artists and creators to connect, share their work, and collaborate with others.</p>
+      </div>
+
+      <div class="signup-container">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 600;">Sign Up</h2>
+        <form action="additional_asset.html" method="get">
+          <div class="form-group">
+            <label for="firstname"><span style="font-family: 'Poppins', sans-serif; font-weight: 300;">First Name:</span></label>
+            <input type="text" id="firstname" name="firstname" placeholder="e.g., Pavan" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="lastname"><span style="font-family: 'Poppins', sans-serif; font-weight: 300;">Last Name:</span></label>
+            <input type="text" id="lastname" name="lastname" placeholder="e.g., Kumar" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="username"><span style="font-family: 'Poppins', sans-serif; font-weight: 300;">Username:</span></label>
+            <input type="text" id="username" name="username" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="email"><span style="font-family: 'Poppins', sans-serif; font-weight: 300;">Email:</span></label>
+            <input type="email" id="email" name="email" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="password"><span style="font-family: 'Poppins', sans-serif; font-weight: 300;">Create new password:</span>:</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+
+          <div class="form-group">
+            <label for="password"><span style="font-family: 'Poppins', sans-serif; font-weight: 300;">Confirm password:</span>:</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+    
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+  </main>
+  <footer style="color: #777; font-size: small;">
+    <p>2023 BuzzSphere. All rights reserved.</p>
+    <address>Lovely Professional University,<br>Phagwara, Jalandhar, Ludhiana - 144411<br>Kapurthala District, Punjab.</address>
+    <p>Facebook - @buzzsphere_india<br>Instagram - @buzzsphere_india<br>X - @buzzsphere_india</p>
+    <p>Copyright ☺ 2023. All Rights Reserved by BuzzSphere.</p>
+  </footer>
+</body>
+
+</html>
